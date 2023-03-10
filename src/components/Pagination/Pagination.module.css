@@ -1,0 +1,26 @@
+.pagination{
+    display: flex;
+    gap: 10px;
+}
+
+.pagination >li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border: 1px darkred solid;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+
+.pagination > li:hover{
+    background-color: #e01111;
+    color: black;
+}
